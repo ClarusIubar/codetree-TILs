@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    float ft_cm = 30.48;
-    float a;
-    scanf("%f", &a);
-    printf("%.1f", a * ft_cm);
+    double ft_cm = 30.48;
+    double a;
+    scanf("%lf", &a);
+    printf("%.1lf", a * ft_cm);
     return 0;
 }
