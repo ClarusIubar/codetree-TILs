@@ -14,6 +14,9 @@ int main() {
             printf("%d ", i);
         }
     }
-    
+    if(a==b){
+        printf("%d", a);
+    }
+
     return 0;
 }
